@@ -48,8 +48,6 @@ LocalGovernanceHubs/
     └── Maps and graphical outputs
 ```
 
-*Note: This is a suggested organizational structure. The actual folders and filenames should be adapted to the files available in the repository.*
-
 ### 4. Software Requirements
 
 The project requires:
