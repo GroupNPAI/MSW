@@ -1,0 +1,10 @@
+station_type,unit_t_day,value_min,value_max
+Micro, up to 20,0,20
+Small, 21–120,21,120
+Medium, 121–500,121,500
+Large, 501–1000,501,1000
+Exceptional, above 1000,1001,1000000
+
+
+
+
