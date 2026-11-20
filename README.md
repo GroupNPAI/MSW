@@ -1,29 +1,33 @@
+
 # Local Governance Hubs
-Computational Modeling and Spatial Arrangements in Solid Waste Management: Strategies for Energy Recovery and Decision-Making
-1. Project Overview
+
+## Computational Modeling and Spatial Arrangements in Solid Waste Management: Strategies for Energy Recovery and Decision-Making
+
+### 1. Project Overview
 
 This repository contains the R scripts and computational resources developed to support the research presented in the manuscript:
 
-"Computational Modeling and Spatial Arrangements in Solid Waste Management: Strategies for Energy Recovery and Decision-Making".
+**"Computational Modeling and Spatial Arrangements in Solid Waste Management: Strategies for Energy Recovery and Decision-Making".**
 
-The project, organized through the LocalGovernanceHubs.Rproj file, provides a computational environment for investigating spatial configurations, local governance arrangements, and decision-making strategies in solid waste management.
+The project, organized through the `LocalGovernanceHubs.Rproj` file, provides a computational environment for investigating spatial configurations, local governance arrangements, and decision-making strategies in solid waste management.
 
 The computational framework aims to integrate spatial analysis, quantitative modeling, and territorial perspectives to support the identification of strategic locations, potential governance hubs, and opportunities for energy recovery from solid waste.
 
-2. Research Objectives
+### 2. Research Objectives
 
 The computational analyses are designed to contribute to the following research dimensions:
 
-Computational Modeling: Development and application of computational procedures to analyze solid waste management systems and support evidence-based decision-making.
-Spatial Arrangements: Investigation of geographical distribution, spatial relationships, and potential configurations of waste management infrastructure.
-Local Governance Hubs: Identification and analysis of strategic territorial arrangements that may facilitate cooperation, resource sharing, and integrated waste management.
-Energy Recovery Strategies: Assessment of opportunities for recovering energy from solid waste through spatially informed planning and computational analysis.
-Decision-Making: Generation of analytical outputs to support planning, prioritization, and strategic allocation of waste management infrastructure.
-3. Repository Structure
+- **Computational Modeling:** Development and application of computational procedures to analyze solid waste management systems and support evidence-based decision-making.
+- **Spatial Arrangements:** Investigation of geographical distribution, spatial relationships, and potential configurations of waste management infrastructure.
+- **Local Governance Hubs:** Identification and analysis of strategic territorial arrangements that may facilitate cooperation, resource sharing, and integrated waste management.
+- **Energy Recovery Strategies:** Assessment of opportunities for recovering energy from solid waste through spatially informed planning and computational analysis.
+- **Decision-Making:** Generation of analytical outputs to support planning, prioritization, and strategic allocation of waste management infrastructure.
+
+### 3. Repository Structure
 
 The project is organized around the following components:
 
-text
+```text
 LocalGovernanceHubs/
 │
 ├── LocalGovernanceHubs.Rproj
@@ -42,21 +46,21 @@ LocalGovernanceHubs/
 │
 └── figures/
     └── Maps and graphical outputs
+```
 
+*Note: This is a suggested organizational structure. The actual folders and filenames should be adapted to the files available in the repository.*
 
-Note: This is a suggested organizational structure. The actual folders and filenames should be adapted to the files available in the repository.
-
-4. Software Requirements
+### 4. Software Requirements
 
 The project requires:
 
-R (preferably the latest stable version).
-RStudio Desktop.
-The R packages required by the individual scripts.
+- R (preferably the latest stable version).
+- RStudio Desktop.
+- The R packages required by the individual scripts.
 
 Packages can be installed using:
 
-r
+```r
 install.packages(c(
   "tidyverse",
   "sf",
@@ -66,96 +70,98 @@ install.packages(c(
   "readr",
   "here"
 ))
-
+```
 
 Additional packages should be installed according to the dependencies identified in the R scripts.
 
-5. How to Run the Project
-Step 1. Open the RStudio project
+### 5. How to Run the Project
+
+#### Step 1. Open the RStudio project
 
 Locate and open:
 
-text
-LocalGovernanceHubs.Rproj
-
+`LocalGovernanceHubs.Rproj`
 
 This will establish the project directory as the working environment.
 
-Step 2. Check the working directory
+#### Step 2. Check the working directory
 
 Run:
 
-r
+```r
 getwd()
+```
 
+The working directory should correspond to the root folder containing `LocalGovernanceHubs.Rproj`.
 
-The working directory should correspond to the root folder containing LocalGovernanceHubs.Rproj.
-
-Step 3. Install and load dependencies
+#### Step 3. Install and load dependencies
 
 Install the required packages and load them before executing the analytical scripts.
 
-Step 4. Execute the R scripts
+#### Step 4. Execute the R scripts
 
-Review the available .R files and execute them in their appropriate analytical and computational sequence.
+Review the available `.R` files and execute them in their appropriate analytical and computational sequence.
 
 Individual scripts can be executed using:
 
-r
+```r
 source("script_name.R")
-
+```
 
 Alternatively, use the RStudio interface to open and execute each script.
 
-Important: Scripts should be executed according to their dependencies. Data preparation, parameter configuration, and intermediate calculations should precede spatial modeling, analysis, and visualization.
+**Important:** Scripts should be executed according to their dependencies. Data preparation, parameter configuration, and intermediate calculations should precede spatial modeling, analysis, and visualization.
 
-6. Analytical Workflow and Manuscript Integration
+### 6. Analytical Workflow and Manuscript Integration
 
 The computational workflow is conceptually connected to the manuscript through the following analytical dimensions:
 
-Computational dimension	Research contribution
-Data preparation and integration	Establishing the analytical basis for solid waste management
-Spatial analysis	Understanding territorial distribution and spatial relationships
-Computational modeling	Evaluating alternative waste management configurations
-Governance hub arrangements	Exploring opportunities for regional coordination and infrastructure integration
-Energy recovery assessment	Supporting the identification of potential energy recovery strategies
-Decision-support analysis	Providing evidence for planning and strategic decisions
+| Computational dimension | Research contribution |
+|---|---|
+| Data preparation and integration | Establishing the analytical basis for solid waste management |
+| Spatial analysis | Understanding territorial distribution and spatial relationships |
+| Computational modeling | Evaluating alternative waste management configurations |
+| Governance hub arrangements | Exploring opportunities for regional coordination and infrastructure integration |
+| Energy recovery assessment | Supporting the identification of potential energy recovery strategies |
+| Decision-support analysis | Providing evidence for planning and strategic decisions |
 
 The outputs generated by the R scripts can support the development of manuscript sections concerning methodology, spatial arrangements, computational results, and policy implications.
 
-7. Expected Outputs
+### 7. Expected Outputs
 
 Depending on the analytical procedures implemented in the scripts, the project may generate:
 
-Spatial datasets and geographic representations.
-Maps of potential waste management arrangements.
-Quantitative indicators and computational results.
-Comparisons of alternative spatial configurations.
-Tables and figures for scientific publications.
-Analytical evidence to support energy recovery and decision-making strategies.
-8. Reproducibility and Scientific Transparency
+- Spatial datasets and geographic representations.
+- Maps of potential waste management arrangements.
+- Quantitative indicators and computational results.
+- Comparisons of alternative spatial configurations.
+- Tables and figures for scientific publications.
+- Analytical evidence to support energy recovery and decision-making strategies.
+
+### 8. Reproducibility and Scientific Transparency
 
 All analyses should be performed using the scripts and datasets associated with the project.
 
 For reproducibility:
 
-Maintain the original input datasets.
-Document package versions and computational dependencies.
-Preserve the order of execution of dependent scripts.
-Store generated outputs separately from original datasets.
-Document modifications to model parameters and analytical assumptions.
-9. Scientific Contribution
+1. Maintain the original input datasets.
+2. Document package versions and computational dependencies.
+3. Preserve the order of execution of dependent scripts.
+4. Store generated outputs separately from original datasets.
+5. Document modifications to model parameters and analytical assumptions.
 
-The LocalGovernanceHubs project provides a computational foundation for investigating the relationship between spatial organization, local governance, and integrated solid waste management.
+### 9. Scientific Contribution
+
+The `LocalGovernanceHubs` project provides a computational foundation for investigating the relationship between spatial organization, local governance, and integrated solid waste management.
 
 By connecting computational modeling with spatial arrangements, the research seeks to contribute to more effective territorial planning, opportunities for energy recovery, and evidence-based decision-making.
 
-The overall framework supports the central proposition of the manuscript: spatially informed computational strategies can help identify more integrated, efficient, and territorially appropriate approaches to solid waste management.
+The overall framework supports the central proposition of the manuscript: **spatially informed computational strategies can help identify more integrated, efficient, and territorially appropriate approaches to solid waste management.**
 
-10. Citation
+### 10. Citation
 
 If you use or adapt the computational resources developed in this repository, please cite the associated scientific manuscript once its bibliographic information becomes available.
 
-Associated manuscript:
+**Associated manuscript:**
 
-Computational Modeling and Spatial Arrangements in Solid Waste Management: Strategies for Energy Recovery and Decision-Making.
+*Computational Modeling and Spatial Arrangements in Solid Waste Management: Strategies for Energy Recovery and Decision-Making.*
