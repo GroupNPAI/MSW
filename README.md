@@ -1,4 +1,4 @@
-Local Governance Hubs
+# Local Governance Hubs
 Computational Modeling and Spatial Arrangements in Solid Waste Management: Strategies for Energy Recovery and Decision-Making
 1. Project Overview
 
@@ -30,6 +30,8 @@ LocalGovernanceHubs/
 │
 ├── README.md
 │
+├── run_analysis.R
+│
 ├── *.R
 │
 ├── data/
@@ -55,7 +57,6 @@ The R packages required by the individual scripts.
 Packages can be installed using:
 
 r
-# Install packages as required by the project
 install.packages(c(
   "tidyverse",
   "sf",
